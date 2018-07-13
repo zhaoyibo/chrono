@@ -1,6 +1,6 @@
 # Chrono 中文强化版
 
-[![Build Status](https://travis-ci.org/weather-bot/chrono.svg?branch=master)](https://travis-ci.org/weather-bot/chrono)
+[![Build Status](https://travis-ci.org/zhaoyibo/chrono.svg?branch=master)](https://travis-ci.org/zhaoyibo/chrono)
 
 Fork 自 Chrono Node，并加强中文语句的处理部分，支持简体和繁体。
 
