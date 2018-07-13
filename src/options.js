@@ -259,6 +259,12 @@ exports.fr.casual = function() {
 exports.zh = function() {
     return {
         parsers: [
+            new parser.ZHHansDateParser(),
+            new parser.ZHHansWeekdayParser(),
+            new parser.ZHHansTimeExpressionParser(),
+            new parser.ZHHansCasualDateParser(),
+            new parser.ZHHansDeadlineFormatParser(),
+
             new parser.ZHHantDateParser(),
             new parser.ZHHantWeekdayParser(),
             new parser.ZHHantTimeExpressionParser(),

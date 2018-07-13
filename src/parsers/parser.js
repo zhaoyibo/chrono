@@ -89,6 +89,12 @@ exports.FRTimeExpressionParser = require('./FR/FRTimeExpressionParser').Parser;
 exports.FRWeekdayParser = require('./FR/FRWeekdayParser').Parser;
 exports.FRRelativeDateFormatParser = require('./FR/FRRelativeDateFormatParser').Parser;
 
+exports.ZHHansDateParser = require('./ZH-Hans/ZHHansDateParser').Parser;
+exports.ZHHansWeekdayParser = require('./ZH-Hans/ZHHansWeekdayParser').Parser;
+exports.ZHHansTimeExpressionParser = require('./ZH-Hans/ZHHansTimeExpressionParser').Parser;
+exports.ZHHansCasualDateParser = require('./ZH-Hans/ZHHansCasualDateParser').Parser;
+exports.ZHHansDeadlineFormatParser = require('./ZH-Hans/ZHHansDeadlineFormatParser').Parser;
+
 exports.ZHHantDateParser = require('./ZH-Hant/ZHHantDateParser').Parser;
 exports.ZHHantWeekdayParser = require('./ZH-Hant/ZHHantWeekdayParser').Parser;
 exports.ZHHantTimeExpressionParser = require('./ZH-Hant/ZHHantTimeExpressionParser').Parser;
