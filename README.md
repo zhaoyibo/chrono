@@ -1,15 +1,16 @@
-# Chrono 中文強化版
+# Chrono 中文强化版
 
 [![Build Status](https://travis-ci.org/weather-bot/chrono.svg?branch=master)](https://travis-ci.org/weather-bot/chrono)
 
-Fork 自 Chrono Node，並加強中文語句的處理部分，為氣象機器人使用的時間自然語言模組。
+Fork 自 Chrono Node，并加强中文语句的处理部分，支持简体和繁体。
 
-This is forked from Chrono Node, and enhances Chinese NLP. Use by Weather Bot TW.
+This is forked from Chrono Node, and enhances Chinese NLP support Simplified and Traditional.
 
 A natural language date parser in Javascript, designed for extracting date information from any given text.
 
 Chrono supports most date and time formats, such as :
 
+* 这周六 六点
 * 這禮拜六
 * 昨天晚上
 * 今天 14:00
